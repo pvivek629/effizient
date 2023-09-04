@@ -11,8 +11,6 @@ import swal from 'sweetalert';
 
 
 
-// const url = "http://localhost:3000";
-
 const FormBase = () => {
 
     const initialFormData = {
@@ -111,7 +109,7 @@ const FormBase = () => {
                     <TextField
                         label="Full Name"
                         variant="outlined"
-                        name="Full Name"
+                        name="Name"
                         value={formData.Name}
                         onChange={handleChange}
                         required
